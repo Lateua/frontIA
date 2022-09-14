@@ -32,7 +32,7 @@ const Moodboard = (props) => {
 
     return (
         <div className="designMoodboard">
-            <div className="hi1">
+            <div className="hi2">
                 <h1>Hola {context.name},</h1>
                 <h2>Bienvenida de nuevo a tu hogar</h2>
                 <div className="text1">Diseñado única y exclusivamente para ti.</div>

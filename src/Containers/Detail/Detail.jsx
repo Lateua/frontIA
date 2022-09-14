@@ -123,7 +123,8 @@ const Detail = () => {
                     </div>
                 </div>
                 <div className="shopping">
-                    <div className="goShopping" onClick = {Nav}>Ir a shopping list</div>
+                    <a href="https://shop.lateua.es/shopping-list/oYOEu"><div className="goShopping">Ir a shopping list</div></a>
+                    
                     <div className="shoppingCart">Añadir todo al carrito</div>
                 </div>
             </div>
