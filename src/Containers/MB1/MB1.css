@@ -1,0 +1,71 @@
+#logo {
+    height: 4em;
+    width: 12em;
+    position:absolute;
+    top:2em;
+    left: 6em;
+}
+.sel {
+    position:absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 1.5em;
+    width: 1.5em;
+    background-color: gray;
+    border-radius: 50%;
+}
+.selint {
+    position: absolute;
+    height: .8em;
+    width: .8em;
+    background-color: rgb(215, 209, 209);
+    border-radius: 50%;
+}
+#sel1 {
+    margin-left: 0;
+    margin-top: -20em;
+}
+.sel:hover {
+    cursor: pointer;
+    background-color: rgb(215, 209, 209);
+}
+.selint:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+#sel2 {
+    margin-left: -23em;
+    margin-top: -25em;
+}
+#sel3 {
+    margin-left: -23em;
+    margin-top: -5em;
+}
+#sel4 {
+    margin-left: -37em;
+    margin-top: -15em;
+}
+#sel5 {
+    margin-left: -10em;
+    margin-top: -3em;
+}
+#sel6 {
+    margin-right: -28em;
+}
+#sel7 {
+    margin-left: -10em;
+    margin-bottom: -30em;
+}
+#sel8 {
+    margin-right: -10em;
+    margin-bottom: -25em;
+}
+#sel9 {
+    margin-right: -40em;
+    margin-top: -25em;
+}
+#sel10 {
+    margin-right: -10em;
+    margin-top: -30em;
+}

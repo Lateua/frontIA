@@ -1,0 +1,288 @@
+/*.designDetail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+.mb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+    padding-top: 5em;
+    margin-top: 7em;
+}
+#Moodboard2 {
+    height: 70%;
+    width: 65%;
+}
+
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+}
+.sideBarTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 10%;
+    margin-top: 1em;
+    margin-left: 2em;
+    font: normal normal bold 1em/77px Arial;
+}
+
+.sideBarContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    color: black;
+}
+.element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px;
+    border-color: #895135;
+    height: 10em;
+    width: 100%;
+}
+.element img {
+    height: 4em;
+    width: 8em;
+}
+.elementTitle {
+    display:flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 70%;
+    font: normal normal normal 1em/77px Arial;
+}
+.elementText {
+    margin-left: 2em;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+}
+.button1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 1.5em;
+    width: 6em;
+    color:#895135;
+    font-weight: bold;
+    margin-left: 1em;
+}
+.button1:hover {
+    cursor: pointer;
+    background-color: #895135;
+    color: white;
+}
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    width: 8em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #895135;
+    border-radius: 1em;
+    color:#895135;
+    font-weight: bold;
+}
+.button2:hover {
+    cursor: pointer;
+    background-color: #895135;
+    color: white;
+}
+.button1 img {
+    height: 1em;
+    width: 1em;
+    border:none;
+    margin-right: .3em;
+}
+.shopping {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    font: normal normal normal 1em/77px Arial;
+}
+.goShopping {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    width: 10em;
+    background-color: #895135;
+    color: white;
+    border-radius: 1em;
+}
+.shoppingCart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    width: 10em;
+    background-color: #895135;
+    color: white;
+    margin-left: 6em;
+    border-radius: 1em;
+}
+.goShopping:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #895135;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #895135;
+    font-weight: bold;
+}
+.shoppingCart:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #895135;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #895135;
+    font-weight: bold;
+}
+.turn img{
+    height: 2em;
+    width: 2em;
+}
+.turn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4em;
+    width: 4em;
+    background-color:#895135;
+    border-radius: 50%;
+    margin-left: -70em;
+    margin-bottom: -40em;
+}
+.turn:hover {
+    cursor: pointer;
+    background-color: rgb(174, 170, 170);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #895135;
+}
+.col {
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+    margin-top: -45em;
+    margin-left: -40em;
+}
+.dotcolors1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    width: 20em;
+    margin-left: 1em;
+}
+.dot1b {
+    background-color: #003853;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    border: 1px solid #7070705F;
+    margin: 1em;
+}
+.dot2b {
+    background-color: #BA8F5B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    border: 1px solid #7070705F;
+    margin: 1em;
+}
+.dot3b {
+    background-color: #BB634D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    border: 1px solid #7070705F;
+    margin: 1em;
+}
+.dot4b {
+    background-color: #EBF0EE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    border: 1px solid #7070705F;
+    margin: 1em;
+}
+.dot5b {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    border: 1px solid #7070705F;
+    margin: 1em;
+}
+.titulo {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+    margin-top: -45em;
+    margin-left: -50em;
+    font: normal normal bold 1.2em/77px Arial;
+    color:#895135;
+}*/
