@@ -52,7 +52,7 @@ const Moodboard = (props) => {
                 <div className="background"></div>
             </div>
             <div className="concept">
-                <div className="text2"><p className='c1'>Concepto</p><p>Elegancia</p><p>Atemporalidad</p><p>Calidez</p></div>
+                <div className="text2"><p id='c1'>Concepto</p><p>Elegancia</p><p>Atemporalidad</p><p>Calidez</p></div>
                 <div className="bg">
                     <div className="bg1"><img src={img6} alt="concepto"/></div>
                 </div>

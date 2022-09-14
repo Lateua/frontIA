@@ -115,14 +115,17 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    margin-right:10em;
+    margin-right:20em;
     margin-top: 8em;
-    height: 20em;
+    height: 30em;
     width: 30em;
 }
-.c1 {
+.text2 p {
+    font: normal normal normal 2.5em/1em Forum;
+}
+#c1 {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 3em;
     color: #707070;
 }
 p {
